@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+    width: 350px;
+    margin: 30px auto;
+}
+
+.settings {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+#taskList {
+    list-style: none;
+    padding: 0;
+}
+
+#taskList li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+#taskList li.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.close {
+    float: right;
+    color: red;
+    cursor: pointer;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
